@@ -43,7 +43,7 @@ app.post("/", function(req, res) {
 
   const options = {
     method: "POST",
-    auth: "lee1:cf5fdbf0af5c2e314447dee414929018-us17"
+    //auth: "lee1:apiKey"
   };
 
   const request = https.request(url, options, function(response) {
@@ -77,9 +77,6 @@ app.listen(process.env.PORT || 3000, function() {
 });
 
 
-
-//API apiKey
-//cf5fdbf0af5c2e314447dee414929018-us17
 
 //listID
 //614e2352ed
